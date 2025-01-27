@@ -5,7 +5,7 @@ import os,sys,re
 import subprocess
 import requests
 from bs4 import BeautifulSoup
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 bot_token = '7766543633:AAFnN9tgGWFDyApzplak0tiJTafCxciFydo' 
 bot = telebot.TeleBot(bot_token)
 processes = []
