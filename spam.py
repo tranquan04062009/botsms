@@ -42,7 +42,7 @@ def spam(message):
     file_path = os.path.join(os.getcwd(), "sms.py")
     process = subprocess.Popen(["python", file_path, phone_number, "100"])
     processes.append(process)
-    bot.reply_to(message, f'➤ Tấn Công SĐT: [ {phone_number} ] Thành Công ✅\n➤ Lặp Lại : {lap} ⏰\n➤ Ngày : {TimeStamp()}\n http://off-vn.x10.mx/i.mp4\n')
+    bot.reply_to(message, f'➤ Tấn Công SĐT: [ {phone_number} ] Thành Công ✅\n➤ Lặp Lại : {lap} ⏰\n➤ Ngày : {TimeStamp()}\n')
 @bot.message_handler(commands=['help'])
 def help(message):
     help_text = '''
