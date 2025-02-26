@@ -1,4 +1,3 @@
-Dưới đây là phiên bản code được cập nhật để lưu danh sách VIP vào file idvip.txt và kiểm tra kỹ lưỡng nhằm tránh lỗi. Tôi cũng tối ưu hóa code để đảm bảo tính ổn định và dễ bảo trì, giữ phong cách Việt Nam tự nhiên.
 import telebot
 import threading
 import time
